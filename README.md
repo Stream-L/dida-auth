@@ -1,18 +1,16 @@
 # Dida OAuth Client
 
-该项目是一个用于连接 Dida365 API 的 OAuth 2.0 客户端。用户可以通过此客户端获取访问令牌，以便与 Dida365 API 进行交互。
+该项目是一个用于连接 Dida365 API （滴答清单）的 OAuth 认证客户端，过程参考开发者文档（https://developer.dida365.com/docs#/openapi）。用户可以通过此客户端获取访问令牌Token，以便与 Dida365 API 进行交互。
+
+This project is an OAuth authentication client designed to connect to the Dida365 API. The process refers to the developer documentation (https://developer.dida365.com/docs#/openapi). Users can obtain an access token through this client to interact with the Dida365 API.
+
+一个部署好了可以直接用的链接：https://dida-auth.vercel.app/
 
 ## 操作流程
 
 ### 1. 设置 Redirect URI
 
-在 Dida365 开发者管理页面（https://developer.dida365.com/manage）中设置 Redirect URI。建议使用以下格式：
-
-```
-https://yourdomain.com/callback
-```
-
-在客户端页面中，Redirect URI 会自动生成并显示。用户可以点击复制按钮将其复制，然后粘贴到滴答开发者管理页面的 Redirect URI 设置中并保存。
+在客户端页面中，Redirect URI 会自动生成并显示。用户可以点击复制按钮将其复制，然后粘贴到 Dida365 开发者管理页面（https://developer.dida365.com/manage）中设置 Redirect URI并保存。
 
 ### 2. 获取 Client ID 和 Client Secret
 
@@ -33,21 +31,13 @@ https://yourdomain.com/callback
 
 在客户端页面中，点击 "Get Access Token" 按钮，客户端会使用授权码请求访问令牌。成功后，页面会显示访问令牌和完整的响应信息。
 
+### 6. 创建测试任务
+
+在客户端页面成功获取Token后，下拉到最下端点击 "Create Test Task" 按钮，客户端会向用户的收集箱新建一个任务。
+
 ## 注意事项
 
 - 确保在浏览器中允许弹出窗口，以便客户端能够打开 Dida365 的授权页面。
 - 确保在 Dida365 开发者管理页面中正确设置 Redirect URI。
 
-## 示例
-
-以下是一个示例配置：
-
-- **Redirect URI**: `https://yourdomain.com/callback`
-- **Client ID**: `your_client_id`
-- **Client Secret**: `your_client_secret`
-
-在客户端页面中输入上述信息后，按照操作流程获取授权码和访问令牌。
-
-````
-
-````
+Powered By Vecel V0 VScode.

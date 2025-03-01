@@ -189,7 +189,7 @@ export default function DidaOAuthApp() {
           "Authorization": `Bearer ${token.token}`,
         },
         body: JSON.stringify({
-          title: "授权Token测试任务",
+          title: "This is a task created by API Token",
         }),
       })
   

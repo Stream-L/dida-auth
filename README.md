@@ -40,4 +40,4 @@ This project is an OAuth authentication client designed to connect to the Dida36
 - 确保在浏览器中允许弹出窗口，以便客户端能够打开 Dida365 的授权页面。
 - 确保在 Dida365 开发者管理页面中正确设置 Redirect URI。
 
-Powered By Vecel V0 VScode.
+Powered By Vercel, V0, VScode.

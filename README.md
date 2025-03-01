@@ -1,6 +1,6 @@
 # Dida OAuth Client
 
-该项目是一个用于连接 Dida365 API （滴答清单）的 OAuth 认证客户端，过程参考开发者文档（https://developer.dida365.com/docs#/openapi）。用户可以通过此客户端获取访问令牌Token，以便与 Dida365 API 进行交互。
+该项目是一个用于连接 Dida365 API （滴答清单）的 OAuth 认证客户端，过程参考开发者文档（https://developer.dida365.com/docs#/openapi ）。用户可以通过此客户端获取访问令牌Token，以便与 Dida365 API 进行交互。
 
 This project is an OAuth authentication client designed to connect to the Dida365 API. The process refers to the developer documentation (https://developer.dida365.com/docs#/openapi). Users can obtain an access token through this client to interact with the Dida365 API.
 

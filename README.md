@@ -10,13 +10,13 @@ This project is an OAuth authentication client designed to connect to the Dida36
 
 ## 操作流程
 
-### 1. 设置 Redirect URI
+### 1. 获取 Client ID 和 Client Secret
 
-在客户端页面中，Redirect URI 会自动生成并显示。用户可以点击复制按钮将其复制，然后粘贴到 Dida365 开发者管理页面（https://developer.dida365.com/manage ）中设置 Redirect URI并保存。
+在 Dida365 开发者管理页面（https://developer.dida365.com/manage ）中创建一个新的应用程序，并获取 `Client ID` 和 `Client Secret`。
 
-### 2. 获取 Client ID 和 Client Secret
+### 2. 设置 Redirect URI
 
-在 Dida365 开发者管理页面中创建一个新的应用程序，并获取 `Client ID` 和 `Client Secret`。
+在客户端页面中，Redirect URI 会自动生成并显示。用户可以点击复制按钮将其复制，然后粘贴到应用程序中设置 Redirect URI并保存。
 
 ### 3. 配置客户端
 

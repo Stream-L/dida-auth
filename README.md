@@ -1,6 +1,8 @@
 # Dida OAuth Client
 
-该项目是一个用于连接 Dida365 API （滴答清单）的 OAuth 认证客户端，过程参考开发者文档（https://developer.dida365.com/docs#/openapi ）。用户可以通过此客户端获取访问令牌Token，以便与 Dida365 API 进行交互。
+**Dida365 Open API Get Access Token 授权Token获取**
+
+一个用于连接 Dida365 API （滴答清单）的 OAuth 2.0 认证客户端，过程参考开发者文档（https://developer.dida365.com/docs#/openapi ）。用户可以通过此客户端获取访问令牌Token，以便与 Dida365 API 进行交互。
 
 This project is an OAuth authentication client designed to connect to the Dida365 API. The process refers to the developer documentation (https://developer.dida365.com/docs#/openapi). Users can obtain an access token through this client to interact with the Dida365 API.
 
@@ -40,4 +42,5 @@ This project is an OAuth authentication client designed to connect to the Dida36
 - 确保在浏览器中允许弹出窗口，以便客户端能够打开 Dida365 的授权页面。
 - 确保在 Dida365 开发者管理页面中正确设置 Redirect URI。
 
-Powered By Vercel, V0, VScode.
+参考 https://juejin.cn/post/7376484708547870731
+Powered By Vercel, V0, Github Copilot.
